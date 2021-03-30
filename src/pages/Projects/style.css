@@ -1,0 +1,75 @@
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+	margin-left:20%
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.projectMargin{
+	margin-top: 5%;
+	margin-left: 5%
+}
+.secondProjectMargin{
+	margin-top: 5%;
+	margin-left: 10%
+}
+
+.iconSecondProject{
+	height: 20px ;
+	margin-left: 20%
+}
+.iconNormalProject{
+	height: 20px;
+	 margin-left: 10%
+}
+.thirdProject{
+	top:-28px;
+}
+.iconThirdProject{
+	height: 20px ;
+	margin-left:25%
+}
+.zooom:hover{
+	transform: scale(1.02);
+	box-shadow: 0 0 10px rgba(233, 227, 227, 0.5);
+	transition: transform 0.1s ease;
+}
+
+.zooom2:hover{
+	transform: scale(1.02);
+	/* box-shadow: 0 0 10px rgba(233, 227, 227, 0.5); */
+	transition: transform 0.1s ease;
+}
+.cardFix{
+	border:0px;
+	background-color: transparent;
+	width: 280px;
+	margin: auto;
+}
+.secondProject{
+	width: 300px ;
+	left: -8px
+}
+@media only screen and (max-width: 600px) {
+.firstProject{
+	margin-top: 40%;
+	left: -40%;
+}
+.fade-in{
+	margin-left: 0;
+}
+.cardFix{
+	margin-bottom: 10%;
+}
+
+}

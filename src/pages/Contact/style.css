@@ -1,0 +1,65 @@
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+.barIcon2{
+	height: 620px;
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.endingText{
+	margin-top: 35%;
+	color:white ;
+	text-align:center
+}
+
+.socialMediaIcon{
+	height: 60px;
+	margin-left:20px
+}
+.phoneImage{
+	height: 90px ;
+	margin-bottom:20px
+}
+.hideIcons{
+	display: none;
+}
+
+.display1{display: inline;}
+@media only screen and (max-width: 600px) {
+	.endingText{
+		margin-top: 20%;
+		font-size: 16px;
+	}
+	.barIcon2{
+		height: 300px;
+	}
+	.socialMediaIcon{
+		height: 20px;
+	}
+	.phoneImage{
+		height: 50px;
+	}
+	.lowerOnPhone{
+		margin-top:38%
+	}
+	.display1{
+		display: block;
+	}
+	
+	.spacee{
+		margin-top: 10%;}
+
+	
+		  
+}

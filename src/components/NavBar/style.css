@@ -1,0 +1,39 @@
+.active{
+    color: white;
+    border-bottom: 3px solid #ff5500 ;
+    padding-bottom: 2px;
+}
+
+.navH1{
+    margin-bottom:20%;
+    margin-left:70%;
+    font-size:25px;
+    font-family: 'gilroylight'
+}
+
+.navLeft{
+    display: inline-block;
+   position:fixed;
+    top: 35%
+}
+
+@media only screen and (max-width: 600px) {
+    .navLeft {
+        display: inline-flex;
+        position:absolute;
+        top: 10%
+    }
+    .navH1{
+        margin-bottom:20%;
+        margin-left:20%;
+        font-size:15px;
+        font-family: 'gilroylight'
+    }
+    .active{
+        color: white;
+        border-top: 3px solid #ff5500 ;   
+        border-bottom: 0px solid #ff5500 ;
+        border-right: 3px solid #ff5500 ;   
+        padding-bottom: 2px;
+    }
+  }

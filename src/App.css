@@ -1,0 +1,24 @@
+.backgrnd{
+  background-image: url(./images/background0.png) ;
+  background-position: center;
+/* background-repeat: no-repeat; */
+background-size: cover;
+height: fit-content;
+width: 100%;}
+
+.Center-Container {
+  position: relative;
+
+}
+
+.navCenter{
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 10%; left: 10%; bottom: 100px; right: 0;
+  border: solid black;
+}
+
+

@@ -1,0 +1,69 @@
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.circleIcon{
+	 margin: 4%; 
+	 width: 250px;
+}
+.resumeIcon{
+	width: 230px;
+	height: 75px; 
+}
+.resume{
+	margin-top: 5% 
+}
+
+.textBorder{
+	border: 3px;
+	border-radius:8px;
+	border-style: solid;
+	padding: 1em;
+	border-color: #3500d4
+}
+
+@media only screen and (max-width: 600px) {
+	.phoneLogo{
+		display:inline-flex
+	}
+
+	.pushDown{
+		margin-top:30%
+	}
+	.circleIcon{
+		/* margin-top: 30%; */
+		margin-left: 10%;
+		width: 70px;
+   }
+   .resume{
+	margin-top: 20%;
+	/* margin-left:40%; */
+   }
+   .resumeIcon{
+	width: 100px;
+	height: 40px; 
+}
+.topMarg{
+	margin-top: 20%;
+}
+.rightMarg{
+	margin-right:15%;
+
+}
+.mobileFont{
+	font-size: 15px;
+}
+}
